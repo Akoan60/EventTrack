@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.anako.eventtrack.controller.MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_rightnow_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="En ce moment à Bordeaux!"/>
+
+    <Button
+        android:id="@+id/activity_main_event1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Event 1"/>
+
+    <Button
+        android:id="@+id/activity_main_event2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Event 2"/>
+
+</LinearLayout>
